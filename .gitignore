@@ -1,0 +1,29 @@
+﻿# kekup
+
+kekup
+
+## 开始
+
+`ash
+git clone https://github.com/Heartbeat520736/kekup.git
+cd kekup
+`
+"@ | Set-Content -Path README.md -Encoding utf8
+@"
+# 依赖/构建产物
+node_modules/
+dist/
+build/
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local
